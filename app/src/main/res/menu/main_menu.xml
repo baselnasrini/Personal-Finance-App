@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/btn_change_user"
+        android:title="Change user"/>
+
+    <item android:id="@+id/btn_add_qr"
+        android:title="Add new QR Code Value"/>
+</menu>

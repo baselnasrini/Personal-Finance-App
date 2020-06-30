@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_background">
+
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ic_close_white_24dp" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Filter from"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/filter_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/txtView"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/txtViewTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="30dp"
+        android:text="Filter to"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/filter_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter_from"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/txtViewTo"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btn_clearFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter_to"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/btn_setFilter"
+        android:minWidth="90dp"
+        android:minHeight="30dp"
+        android:text="Clear Filter"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn_setFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter_to"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:minWidth="80dp"
+        android:minHeight="30dp"
+        android:text="Set"
+        android:textSize="10sp" />
+</RelativeLayout>
