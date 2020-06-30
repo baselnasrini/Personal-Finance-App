@@ -2,12 +2,18 @@
 # Personal-Finance-App
 An application that will serve as a tool for organizing your personal finances. The user should be able to enter expenditures and income using the UI. The UI will also show a list of the income and expenditures within a specified time period. These results must be properly presented to the user.
 
+<img src="https://user-images.githubusercontent.com/26624976/86121541-73652e80-bad6-11ea-94db-f180c285a2e4.png" width="400" height="800" />
+
 ## Goal
 You must show a basic understanding of the development process for a simple Android application. You must also show that you understand the different components available in the Android system, and how they can cooperate with each other.
 The student should:
 - Show understanding of the basic components of the Android system.
 - Show understanding of the life cycles of Android.
 - Show understanding of different storage options available in the Android system.
+
+<img src="https://user-images.githubusercontent.com/26624976/86121542-73652e80-bad6-11ea-95b1-3eaf45856dd4.png" width="400" height="800" />
+<img src="https://user-images.githubusercontent.com/26624976/86121539-72340180-bad6-11ea-8a74-059fae514400.png" width="400" height="800" />
+<img src="https://user-images.githubusercontent.com/26624976/86121540-72cc9800-bad6-11ea-9c8e-dfbf8291e5d8.png" width="400" height="800" />
 
 ### Requirements for a Godkänt
 In order to achieve a grade Godkänt in this task:
@@ -28,7 +34,3 @@ In order to achieve a grade Väl Godkänt, these features must also be implement
 4. At least one inherited View, e.g. extending TextView or Button, will be used in the application.
 5. The application shall include the dynamic change of fragments.
 
-<img src="https://user-images.githubusercontent.com/26624976/86121541-73652e80-bad6-11ea-94db-f180c285a2e4.png" width="400" height="800" />
-<img src="https://user-images.githubusercontent.com/26624976/86121542-73652e80-bad6-11ea-95b1-3eaf45856dd4.png" width="400" height="800" />
-<img src="https://user-images.githubusercontent.com/26624976/86121539-72340180-bad6-11ea-8a74-059fae514400.png" width="400" height="800" />
-<img src="https://user-images.githubusercontent.com/26624976/86121540-72cc9800-bad6-11ea-9c8e-dfbf8291e5d8.png" width="400" height="800" />
