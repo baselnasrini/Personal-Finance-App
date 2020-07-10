@@ -116,7 +116,7 @@ public class ExpenseFragment extends Fragment implements IOnBackPressed {
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             barChart.setVisibility(View.VISIBLE);
             ConstraintLayout.LayoutParams lp = (ConstraintLayout.LayoutParams) lvExpense.getLayoutParams();
-            lp.setMargins(0,330,0,0);
+            lp.setMargins(0,370,0,0);
             lvExpense.setLayoutParams(lp);
         } else{
             ConstraintLayout.LayoutParams lp = (ConstraintLayout.LayoutParams) lvExpense.getLayoutParams();
